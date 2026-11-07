@@ -24,57 +24,206 @@
     
 
     <div class="kontainer">
-        <div class="kotak"><img src="img/Active Polling Card.png"></div>
-        <div class="kotak"><img src="img/Frame 1686561048.png"></div>
+        
+<div class="polling-container">
+    <div class="polling-header">
+        <div>
+            <h2>Piknik DTEDI Periode 2026</h2>
+            <p>Polling aktif • Segera ikuti voting</p>
+        </div>
+
+        <div class="polling-timer">
+            <span>◷</span> 48:00:20
+        </div>
+    </div>
+
+    <div class="polling-alert">
+        Anda belum mengikuti polling ini. Segera tekan tombol
+        "Ikuti Voting" untuk memberikan suara Anda.
+    </div>
+
+    <div class="polling-info">
+        <div class="info-item">
+            <div class="info-label">▣ <span>Periode</span></div>
+            <strong>1 Sep - 12 Sep 2026</strong>
+        </div>
+
+        <div class="info-item">
+            <div class="info-label">♧ <span>Partisipan</span></div>
+            <strong>120</strong>
+        </div>
+
+        <div class="info-item">
+            <div class="info-label">◌ <span>Status</span></div>
+            <strong>Belum mengikuti</strong>
+        </div>
+    </div>
+
+    <div class="polling-action">
+        <button type="button" class="polling-button">
+            Ikuti Voting <span>→</span>
+        </button>
+    </div>
+</div>
+
+
+<div class="faq-container">
+
+    <details class="faq-item">
+        <summary>
+            <span class="faq-icon">?</span>
+            <span class="faq-question">
+                Bagaimana cara memberikan suara?
+            </span>
+            <span class="faq-arrow"></span>
+        </summary>
+
+        <div class="faq-answer">
+            Untuk memberikan suara, silakan klik tombol
+            "Ikuti Voting", kemudian pilih salah satu pilihan
+            yang tersedia dan tekan tombol Kirim Suara.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            <span class="faq-icon">?</span>
+            <span class="faq-question">
+                Apakah pilihan bisa diubah setelah dikirim?
+            </span>
+            <span class="faq-arrow"></span>
+        </summary>
+
+        <div class="faq-answer">
+            Tidak. Setelah suara berhasil dikirim, pilihan
+            tidak dapat diubah kembali. Pastikan pilihan Anda
+            sudah benar sebelum mengirimkan suara.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            <span class="faq-icon">?</span>
+            <span class="faq-question">
+                Kapan hasil voting diumumkan?
+            </span>
+            <span class="faq-arrow"></span>
+        </summary>
+
+        <div class="faq-answer">
+            Hasil voting akan diumumkan setelah periode
+            pemungutan suara berakhir dan proses perhitungan
+            suara selesai dilakukan.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            <span class="faq-icon">?</span>
+            <span class="faq-question">
+                Apa yang terjadi jika belum sempat memilih?
+            </span>
+            <span class="faq-arrow"></span>
+        </summary>
+
+        <div class="faq-answer">
+            Jika belum memberikan suara hingga periode voting
+            berakhir, Anda tidak akan tercatat sebagai
+            peserta yang telah memberikan suara.
+        </div>
+    </details>
+
+</div>
+
+        
+
     </div>
 
     <h1>Riwayat Pemilihan Destinasi Wisata Piknik DTEDI</h1>
     <div class="card-container">
+        <div class="riwayat">
+            <h2>Pantai Lorem Ipsum</h2>
+            <p>Deskripsi pantai Lorem Ipsum</p>
+
+            <div class="info">
+                <img src="img/calendar_icon.png">
+
+                <div class="ingfo">
+                    <span>Periode 2025</span>
+                    <span>dd/mm/yy</span>
+                </div>
+            </div>
+
+            <div class="info">
+                <img src="img/participants_icon.png">
+
+                <div class="ingfo">
+                    <span>Partisipan</span>
+                    <span>100 orang</span>
+                </div>
+        </div>
+        <button>Lihat hasil</button>
+    </div>
+
          <div class="riwayat">
             <h2>Pantai Lorem Ipsum</h2>
             <p>Deskripsi pantai Lorem Ipsum</p>
-            <div class="periode">
-                <h5>Periode 2025</h5>
-                <p>dd/mm/yy</p>
-            </div>
-            <div class="partisipan">
-                <h5>Partisipan</h5>
-                <p>dd/mm/yy</p>
 
+            <div class="info">
+            <img src="img/calendar_icon.png">
+
+            <div class="ingfo">
+                <span>Periode 2025</span>
+                <span>dd/mm/yy</span>
             </div>
-            <button>Lihat hasil</button>
         </div>
 
-          <div class="riwayat">
-            <h2>Pantai Lorem Ipsum</h2>
-            <p>Deskripsi pantai Lorem Ipsum</p>
-            <div class="periode">
-                <h5>Periode 2025</h5>
-                <p>dd/mm/yy</p>
-            </div>
-            <div class="partisipan">
-                <h5>Partisipan</h5>
-                <p>dd/mm/yy</p>
+        <div class="info">
+            <img src="img/participants_icon.png">
 
+            <div class="ingfo">
+                <span>Partisipan</span>
+                <span>100 orang</span>
             </div>
-            <button>Lihat hasil</button>
-        </div>
-
-          <div class="riwayat">
-            <h2>Pantai Lorem Ipsum</h2>
-            <p>Deskripsi pantai Lorem Ipsum</p>
-            <div class="periode">
-                <h5>Periode 2025</h5>
-                <p>dd/mm/yy</p>
-            </div>
-            <div class="partisipan">
-                <h5>Partisipan</h5>
-                <p>dd/mm/yy</p>
-
-            </div>
-            <button>Lihat hasil</button>
-        </div>
-   
     </div>
+    <button>Lihat hasil</button>
+</div>
+
+        <div class="riwayat">
+            <h2>Pantai Lorem Ipsum</h2>
+            <p>Deskripsi pantai Lorem Ipsum</p>
+
+            <div class="info">
+            <img src="img/calendar_icon.png">
+
+            <div class="ingfo">
+                <span>Periode 2025</span>
+                <span>dd/mm/yy</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="img/participants_icon.png">
+
+            <div class="ingfo">
+                <span>Partisipan</span>
+                <span>100 orang</span>
+            </div>
+    </div>
+    <button>Lihat hasil</button>
+</div>
+
+    </div>
+
+<footer class="footer-container">
+    <div class="footer-logo">
+        <img src="img/LogoVonic.png">
+    </div>
+
+    <div class="footer-copyright">
+        © 2026 DTEDI SV UGM
+    </div>
+</footer>
+
 </body>
 </html>
