@@ -15,8 +15,12 @@
             </div>
 
             <div class="nav-menu">
-                <button>Beranda</button>
-                <button>Riwayat Pemilihan</button>
+                <button>
+                    <a href="/">Beranda</a>
+                </button>
+                <button>
+                    <a href="/riwayat">Riwayat Pemilihan</a>
+                </button>
             </div>
     </nav>
     
@@ -162,7 +166,14 @@
                     <span>100 orang</span>
                 </div>
         </div>
-        <button>Lihat hasil</button>
+        <button onclick="popup1.showModal()">Lihat hasil</button>
+        <dialog id="popup1">
+            <strong>Hasil Voting</strong>
+            <h2>Piknik DTEDI Periode 2025</h2>
+            <img src="https://images.pexels.com/photos/25405465/pexels-photo-25405465.jpeg" height="300px" width="300px">
+            <p>Deskripsi pantai Lorem Ipsum.</p>
+            <button onclick="popup1.close()">Tutup</button>
+        </dialog>
     </div>
 
          <div class="riwayat">
